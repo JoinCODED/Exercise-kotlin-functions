@@ -17,7 +17,7 @@ fun findOasis(x: Int, y: Int) {
 }
 
 fun currentTemperature(morningTemperature: Int, afternoonTemperature: Int): Int {
-    return((morningTemperature + afternoonTemperature / 2))
+    return((morningTemperature + afternoonTemperature) / 2)
 }
 
 fun startCamelRide(time: Int, speed: Int = 5) {
