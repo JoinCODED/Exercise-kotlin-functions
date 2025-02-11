@@ -13,7 +13,7 @@ fun main()
     exploreDune(climbRate = 3.0,  height = 20.0) //step 5
 
     var chance = survivalChance(8)
-    println("Survival Chance: $chance")
+    println("Survival Chance: $chance")//step 6
 
 
 
