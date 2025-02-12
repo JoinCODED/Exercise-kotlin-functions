@@ -13,15 +13,13 @@ fun startCamelRide(time: Int, speed: Int = 5): String{
 fun exploreDune(height: Double, climbRate: Double): String {
     return "Time to Climb the Dune: ${height / climbRate} hours"
 }
-fun survivalChance(supplies: Int): String {
-    return "Survival chance: ${supplies * 10}"
-}
+fun survivalChance(supplies: Int) = supplies * 10
 fun main(){
     greetTraveler()
     println(findOasis(10, 20))
     println(currentTemperature(25, 40))
     println(startCamelRide(10, 5))
     println(startCamelRide(10))
-    println(exploreDune(20.0,3.0))
-    println(survivalChance(8))
+    println(exploreDune(height = 20.0, climbRate = 3.0))
+    println("Survival Chance: ${survivalChance(8)}")
 }
