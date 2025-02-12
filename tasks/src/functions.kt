@@ -7,6 +7,7 @@ fun main() {
     println(startCamelRide(10, 5));
     println(startCamelRide(10));
     println(exploreDune(20.0, 3.0));
+    println(survivalChance(8));
 
 }
 
@@ -31,3 +32,6 @@ fun exploreDune(height: Double, climbRate: Double): String {
     return "Time to Climb the Dune: ${"%.2f".format(height / climbRate)} hours";
 }
 
+fun survivalChance(supplies: Int): String {
+    return "Survival Chance: ${supplies * 10}";
+}
