@@ -1,3 +1,10 @@
-fun main() {
-    println("Hello World!")
-}
+fun greetTraveler()
+    {
+        println("Welcome to the Desert, Traveler!")
+    }
+
+
+    fun main() {
+        greetTraveler()
+
+    }
